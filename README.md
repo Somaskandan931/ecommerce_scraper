@@ -37,8 +37,6 @@ This project is a **static HTML web scraper** built using **Java** and **Seleniu
 
 ---
 
----
-
 ## ▶️ How to Run
 
 ### 📌 Prerequisites
@@ -49,7 +47,6 @@ This project is a **static HTML web scraper** built using **Java** and **Seleniu
 
 ### 🧪 Steps to Run
 
-```bash
 # Clone the repo
 git clone https://github.com/yourusername/book-scraper.git
 cd book-scraper
@@ -62,16 +59,14 @@ mvn exec:java -Dexec.mainClass="com.somas.scraper.BookScraper"
 
 📦 Output
 Scraped book data is exported as:
-
-bash
-Copy
-Edit
 output/books.csv
+
 🧪 Sample Output Fields
-Title	Price	Availability
-A Light in the Attic	£51.77	In stock
-Tipping the Velvet	£53.74	In stock
-Soumission	£50.10	In stock
+| Title                | Price  | Availability |
+| -------------------- | ------ | ------------ |
+| A Light in the Attic | £51.77 | In stock     |
+| Tipping the Velvet   | £53.74 | In stock     |
+| Soumission           | £50.10 | In stock     |
 
 ⚠️ Disclaimer
 This scraper is for educational use only. The target site books.toscrape.com is provided by its creators for testing and learning web scraping, and scraping it is fully permitted.
