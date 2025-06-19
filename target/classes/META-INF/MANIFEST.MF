@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 22
+Main-Class: com.somas.scraper.ecommerce_scraper.BookScrapperMain
+Created-By: Maven Integration for Eclipse
+

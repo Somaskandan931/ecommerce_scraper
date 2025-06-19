@@ -1,0 +1,15 @@
+# Compiled class files 
+*.class 
+ 
+# Eclipse files 
+.metadata 
+bin/ 
+tmp/ 
+*.tmp 
+*.bak 
+*.swp 
+*~.nib 
+.settings/ 
+.loadpath 
+.project 
+.classpath 
